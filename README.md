@@ -8,8 +8,8 @@
 
 ### 文档目录
 
-- [ ] [nginx 介绍](introduce.md)
-- [ ] [nginx 安装](install.md)
+- [x] [nginx 介绍](introduce.md)
+- [x] [nginx 安装](install.md)
 - [ ] nginx 操作
 - [ ] 相关概念
   - [ ] nginx main配置

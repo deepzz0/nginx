@@ -4,17 +4,15 @@
 
 对于 Linux 系统，一般的，如果没有特殊需求，每个系统都管理着 nginx 相关 package，你只需要如 `sudo apt update && apt install nginx` 即可。
 
-
-
 你也可以使用来自 nginx.org 的 nginx package 进行安装：
 
 #### RHEL/CentOS
 
 ```
 Version	            Supported Platforms
-6.x	                x86_64, i386
-7.4+	              x86_64, ppc64le
-8.x	                x86_64
+6.x                 x86_64, i386
+7.4+                x86_64, ppc64le
+8.x                 x86_64
 ```
 
 前置条件：
@@ -59,8 +57,8 @@ $ sudo yum install nginx
 
 ```
 Version	            Supported Platforms
-9.x “stretch”	      x86_64, i386
-10.x “buster”	      x86_64, i386
+9.x “stretch”       x86_64, i386
+10.x “buster”       x86_64, i386
 ```
 
 前置条件：
@@ -107,10 +105,10 @@ $ sudo apt install nginx
 
 ```
 Version	            Supported Platforms
-16.04 “xenial”	    x86_64, i386, ppc64el, aarch64/arm64
-18.04 “bionic”	    x86_64, aarch64/arm64
-18.10 “cosmic”	    x86_64
-19.04 “disco”	      x86_64
+16.04 “xenial”      x86_64, i386, ppc64el, aarch64/arm64
+18.04 “bionic”      x86_64, aarch64/arm64
+18.10 “cosmic”      x86_64
+19.04 “disco”       x86_64
 ```
 
 前置条件：
@@ -157,8 +155,8 @@ $ sudo apt install nginx
 
 ```
 Version	            Supported Platforms
-12	                x86_64
-15	                x86_64
+12                  x86_64
+15                  x86_64
 ```
 
 前置条件：
@@ -210,9 +208,9 @@ $ sudo zypper install nginx
 
 ```
 Version	           Supported platforms
-3.8	               x86_64
-3.9	               x86_64
-3.10	             x86_64
+3.8                x86_64
+3.9                x86_64
+3.10               x86_64
 ```
 
 前置条件：

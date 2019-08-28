@@ -25,17 +25,17 @@ nginx 在我们实际的使用过程中能帮助我们做什么？
 
 什么是代理？代理就是帮助你（client）处理与服务器（server）连接请求的中间应用，我们称之为 proxy server。
 
-![proxy](./asserts/proxy.jpg)
+![proxy](asserts/proxy.jpg)
 
 那什么又是正向代理呢？简单说，对于 client，想要连上 server，如果这个中间过程你知道代理服务器的存在，那这就是正向代理（即这个过程是 client 主动的过程）。举例来说，我想访问 example.com，此时我通过 vpn 代理服务器进行代理，这个过程就是正向代理。又比如我们需要操作服务器 A，但又必须通过跳板机进行代理，这个过程也是正向代理。
 
-![forward-proxy](./asserts/forward-proxy.jpg)
+![forward-proxy](asserts/forward-proxy.jpg)
 
 **反向代理**
 
 反向代理与正向代理相对，对于 client，直接访问当目标服务器 server（proxy），但目标服务器 server 可能会将请求转发到其它应用服务器 server（app）（即这个过程是 server 主动的过程）。其对用户是透明的，如用户去访问 example.com，他并不知道该网站背后发生了什么事，一个 API 请求被转发到哪台服务器。
 
-![reverse-proxy](/Users/chen/gopath/src/github.com/deepzz0/nginx/asserts/reverse-proxy.jpg)
+![reverse-proxy](asserts/reverse-proxy.jpg)
 
 
 
