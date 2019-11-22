@@ -8,9 +8,9 @@
 
 ### 文档目录
 
-- [x] [nginx 介绍](introduce.md)
-- [x] [nginx 安装](install.md)
-- [ ] nginx 操作
+- [x] [Nginx 介绍](introduce.md)
+- [x] [Nginx 安装](install.md)
+- [x] [Nginx 操作](operation.md)
 - [ ] 相关概念
   - [ ] nginx main配置
   - [ ] http server 结构
