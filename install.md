@@ -127,6 +127,24 @@ $ ./configure
 $ make
 ```
 
+### Docker运行
+
+利用 Docker 直接运行一个容器，然后将配置映射出来也是一种不错的选择：
+
+```
+$ docker run -d \
+    --name nginx \
+    -p 80:80 \
+    -p 443:443 \
+    -v $PWD/conf.d:/etc/nginx/conf.d \
+    nginx
+
+$ curl -v localhost
+<html>
+......
+</html>
+```
+
 ### 动态模块
 
 默认情况 nginx 是由许多核心模块构建的，那需要实现额外的功能就需要重新构建。但版本 1.9.11 之后，nginx 支持了 [动态模块](http://nginx.org/en/docs/ngx_core_module.html#load_module)，以下是 nginx 动态构建的模块：
