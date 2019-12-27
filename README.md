@@ -12,6 +12,9 @@
 - [x] [Nginx 安装](install.md)
 - [x] [Nginx 操作](operation.md)
 - [ ] 相关概念
+  - [ ] 事件机制
+  - [ ] 信号机制
+- [x] [配置概念](config/conf-concept.md)
   - [ ] nginx main配置
   - [ ] http server 结构
   - [ ] listen 如何配置（udp）
@@ -37,7 +40,7 @@
   - [ ] `链接限制`：如何限制每个 IP 所打开的链接数
   - [ ] `IP访问控制`：如何阻止或允许指定IP访问虚拟主机
 - [ ] 代理配置
-  - [ ] `反向代理`：如何为我们的站点设置反向代理
+  - [ ] `反向代理`：如何为我们的站点设置反向代理（反向客户端认证HTTPS）
   - [ ] `GRPC代理`：如何配置 grpc 代理及 grpc ssl 代理
   - [ ] `WebSocket`：如何配置 websocket 代理
   - [ ] `Memcached`：如何使用 nginx 对 memcached 代理
