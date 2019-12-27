@@ -44,7 +44,7 @@
 
 当我们去看 nginx 文档时，就会有提示可以配置上下文的位置：
 
-![read-config](asserts/read-config.jpg)
+![read-config](../asserts/read-config.jpg)
 
 
 
