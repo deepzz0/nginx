@@ -21,7 +21,7 @@
   - [ ] server_name 配置
   - [ ] location 如何配置
   - [ ] upstream 如何配置
-  - [ ] ssl 如何配置
+  - [ ] [ssl 如何配置](config/ssl-conf.md)
   - [ ] log 如何配置（rotate）
 - [ ] 基础配置
   - [ ] `静态文件服务器`：第一份nginx配置（root、try_files）
