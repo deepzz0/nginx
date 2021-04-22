@@ -6,7 +6,7 @@ nginx 作为一个代理服务器，可以帮助我们卸载 SSL（可以理解�
 
 #### 单证书
 
-一般情况下，我们没有特殊要求只需要部署一张证书即可。
+一般情况下，我们没有特殊要求只需要部署一张证书即可。如果 nginx 版本支持 http2：`listen 443 ssl http2`。
 
 RSA证书：
 
@@ -99,7 +99,6 @@ server {
 }
 
 server {
-    # 如何nginx版本支持 http2：listen 443 ssl http2;
     listen       443 ssl;
     server_name  example.com;
     
@@ -114,6 +113,8 @@ server {
     }
 }
 ```
+
+
 
 更多配置参数参考：[ssl 如何配置](config/ssl-conf.md)。
 
