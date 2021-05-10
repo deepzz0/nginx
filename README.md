@@ -31,7 +31,7 @@
   - [x] [客户端认证](config/client-verify.md)：如何实现客户端 SSL 双向认证
   - [x] [前端跨域cors](config/fe-cors.md)：如何实现前端本地开发后端代理，防止跨域
   - [x] [Basic Auth](config/basic-auth.md)：basic auth配置，如何让 nginx 遵循 Basic Auth 认证协议
-  - [ ] `重定向`：如何配置对站点的重定向，对 uri 的重定向
+  - [x] [重定向](config/http-redirect.md)：如何配置对站点的重定向，对 uri 的重定向
   - [ ] `location练习`：如何配置 location，location 知识点练习
   - [ ] `邮件服务器`：如何配置邮件服务器
   - [ ] `健康检查`：如何对 nginx 实现健康检查（stub_status）
