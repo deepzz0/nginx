@@ -23,14 +23,14 @@
   - [ ] upstream 如何配置
   - [x] [ssl 如何配置](config/ssl-conf.md)
   - [ ] log 如何配置（rotate）
-- [ ] 基础配置
+- [x] 基础配置
   - [x] [静态文件服务器](config/file-svr.md)：第一份nginx配置（root、try_files）
   - [x] [多虚拟主机](config/multi-svr.md)：如何配置多虚拟主机，配置多个server
   - [x] [站点防盗链](config/valid-referer.md)：如何为我们的站点启用防盗链
   - [x] [HTTPS站点](config/https-site.md)：如何配置HTTPS服务器及为一个站点配置双证书（http2）
   - [x] [客户端认证](config/client-verify.md)：如何实现客户端 SSL 双向认证
-  - [ ] `前后端代理`：如何实现前端本地开发后端代理，防止跨域
-  - [ ] `Basic Auth`：如何让 nginx 访问需要 basic auth 权限的后端
+  - [x] [前端跨域cors](config/fe-cors.md)：如何实现前端本地开发后端代理，防止跨域
+  - [x] [Basic Auth](config/basic-auth.md)：basic auth配置，如何让 nginx 遵循 Basic Auth 认证协议
   - [ ] `重定向`：如何配置对站点的重定向，对 uri 的重定向
   - [ ] `location练习`：如何配置 location，location 知识点练习
   - [ ] `邮件服务器`：如何配置邮件服务器
